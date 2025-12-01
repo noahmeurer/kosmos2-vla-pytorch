@@ -3,7 +3,7 @@
 **`kosmos2_dit_policy.py`**
 - Defines `Kosmos2Backbone`, a wrapper around the `microsoft/kosmos-2-patch14-224` VLM to encode (multi-camera) visual observations.
 - Defines `ContextEmbeddings` to embed low-dimensional robot/state inputs (e.g. qpos) into the same feature space.
-- Defines `Kosmos2DITPolicy`, which combines Kosmos-2 features, context embeddings, and a DiT-style diffusion head into a Vision-Language-Action policy.
+- Defines `Kosmos2DITPolicy`, which combines Kosmos-2 features, context embeddings, and a DiT-style diffusion head into a vision-lanuage-action policy.
 
 **`dit_noise_net.py`**
 - Defines `_DiTNoiseNet`, a diffusion transformer that predicts noise over action sequences conditioned on observations and diffusion timesteps.
